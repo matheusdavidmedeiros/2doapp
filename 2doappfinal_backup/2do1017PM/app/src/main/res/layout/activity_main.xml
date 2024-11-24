@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 Do! - Resolva seus B.O."
+        style="@style/AppTitleStyle"
+        android:padding="16dp"
+        android:layout_alignParentTop="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_below="@id/appTitle"
+        android:layout_above="@+id/buttonAddTask"/>
+
+    <Button
+        android:id="@+id/buttonAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Tarefa"
+        android:backgroundTint="@color/purple_500"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonDeleteAllTasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excluir Todas as Tarefas"
+        android:backgroundTint="@color/red"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/buttonAddTask"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"/>
+
+</RelativeLayout>
