@@ -1,6 +1,7 @@
-2Do App - Solve Your Problems with Humor
+2Do App – Solve Your Problems with Humor
 
-2Do App is a task management application designed not only to help you organize and solve your "B.O." (Boletins de Ocorrência) efficiently but also to add a touch of humor to your daily tasks.
+2Do App is a task management tool designed to help you stay organized while adding a light-hearted twist to your daily routine. It makes tackling your to-do list more fun, turning everyday tasks into something you can actually smile about.
+
 Features
 
     Add Tasks: Allows you to add new tasks with a name and description.
